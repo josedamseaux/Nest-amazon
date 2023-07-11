@@ -22,6 +22,7 @@
     "m:gen": "set NODE_ENV=develop&& npm run orm:init migration:generate",
     "m:run": "set NODE_ENV=develop&& npm run orm:init migration:run"
   },
+
   "dependencies": {
     "@nestjs/axios": "^3.0.0",
     "@nestjs/common": "^10.0.0",
